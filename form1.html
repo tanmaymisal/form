@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Registratiion Form</title>
+    <link rel="stylesheet" href="s.css">
+    <style>
+        div{
+            background-color: rgba(0, 0, 0, 0.3);
+            width: 100%;
+            font-size: 18px;
+            border-radius: 10px;
+            border: 0px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+            color: white;
+        }
+        form{
+    margin: 40px;
+        }
+    input#name{
+        width: 300px;
+    border: 1px;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: white;
+    box-shadow: inset 1px 1px 5px
+    rgba(0,0,0,3);
+
+    }
+        input#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    border: 1px;
+    box-shadow: 1px 1px 5px
+    rgba(0, 0, 0, 3);
+    margin-bottom: 20px;
+}
+input#reset{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    border: 1px;
+    box-shadow: 1px 1px 5px
+    rgba(0, 0, 0, 3);
+    margin-bottom: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="main" align="center>
+        <div class="Register">
+           <table align="center">
+               <tr>
+                   <td>
+                    <h2 style="color: white;">Register Here</h2>
+                    <form action="" id="Register" method="post">
+                        <label for="">First Name :</label><br>
+                        <input type="text" name="fname" id="name" placeholder="Enter your first name"><br><br>
+                        <label for="">Middle Name :</label><br>
+                        <input type="text" name="mname" id="name" placeholder="Enter your middle name "><br><br>
+                        <label for="">Last name :</label><br>
+                        <input type="text" name="lname" id="name" placeholder="Enter your last  name"><br><br>
+                        <label for=""> Age :</label>
+                        <br><input type="number" name="Age"
+                        id="name" placeholder="How old are you ?"><br><br>
+                        <label for="" >Email :</label>
+                        <br>
+                        <input type="email" name="email" id="name"
+                        placeholder="Enter your valid email"><br><br>
+                        <label for="">Password :</label><br>
+                        <input type="password" name="password" id="password"
+                        placeholder="Enter Here">
+                        <br><br>
+                        <label for="" >Mobile no. :</label>
+                        <br>
+                        <input type="number" name="number" id="number"
+                        placeholder="Enter moblie number"><br><br>
+                       <label for="">Address :</label><br>
+                       <input type="text" name="add" id="add"
+                       placeholder="">
+                        <br><br> <label for="">Gender :</label>
+                        <br>
+                         <input type="radio" name="Gender">Male
+                         <input type="radio" name="Gender">Female
+                         <input type="radio" name="Gender">Other 
+                         <br><br>
+                         <label for="">Known Language :</label>
+                         <select name="language" id="language">
+                         <br>
+                         <option value="lang1">English</option>
+                         <option value="lang2">Hindi</option>
+                         <option value="lang3">Marathi</option>
+                        <option value="lang4">Other</option>
+                        </select><br><br>
+                        <input type="reset" value="reset" name="reset" id="reset">
+                        <input type="submit" value="Register" name="register" id="submit" >
+                        <a href="2.html" target="submit"></a>
+                    </form>
+                   </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
